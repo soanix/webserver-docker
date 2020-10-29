@@ -1,0 +1,16 @@
+# CREAR NUEVO USUARIO FTP
+
+OJO: Sustituir {NOMBRE_DE_USUARIO} y {DIRETORIO} por los datos reales teniendo en
+cuenta que el directorio /home/ftpuser/web/ del container de docker equivale a /root/workspace/web (Ejemplo en la parte de abajo)
+
+docker exec -it ftp-docker ftpasswd --file=/etc/proftpd/ftpd.passwd --passwd --shell=/bin/false --name={NOMBRE_DE_USUARIO} --uid=1001 --home=/home/ftpuser/web/{DIRECTORIOWEB}
+
+- Te pedirá que escribas la contraseña 2 veces.
+
+** IMPORTANTE **
+
+Para que el usuario se ejecute con permisos de www-data y no te de error de permisos:
+
+1 - IR AL FICHERO /root/workspace/etc/proftpd/ftpd.passwd
+2 - modificar en la linea del usuario que has creado el id 1001 por 33 qye quede así: "33:33" en vez de "1001:1001"
+
