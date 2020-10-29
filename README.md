@@ -26,6 +26,7 @@
 - Postfix
 - proftpd
 - letsEncrypt / certbot
+- Portainer
 
 ### Instalación
 
