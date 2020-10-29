@@ -1,0 +1,5 @@
+data/*
+*.log
+logs/*
+web/*
+!web/index.php
