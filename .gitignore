@@ -5,3 +5,4 @@ web/*
 !web/index.php
 etc/apache/sites-enabled/*.conf
 !etc/apache/sites-enabled/apache-config.conf
+etc/nginx/conf.d/sites-enabled/*
