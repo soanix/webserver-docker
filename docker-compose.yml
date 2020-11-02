@@ -1,4 +1,7 @@
 version: "3"
+
+# MariaDB:  8988 
+# MySQL:    8989
 services:
     reverseproxy:
         image: nginx
