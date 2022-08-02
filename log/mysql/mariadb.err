@@ -1,0 +1,889 @@
+2021-04-28 10:00:59 0 [Note] InnoDB: Uses event mutexes
+2021-04-28 10:00:59 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-04-28 10:00:59 0 [Note] InnoDB: Number of pools: 1
+2021-04-28 10:00:59 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-04-28 10:00:59 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-04-28 10:00:59 0 [Note] InnoDB: Using Linux native AIO
+2021-04-28 10:00:59 0 [Note] InnoDB: Initializing buffer pool, total size = 536870912, chunk size = 134217728
+2021-04-28 10:00:59 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-04-28 10:00:59 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-04-28 10:00:59 0 [Note] InnoDB: 128 rollback segments are active.
+2021-04-28 10:00:59 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-04-28 10:00:59 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-04-28 10:00:59 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-04-28 10:00:59 0 [Note] InnoDB: 10.5.9 started; log sequence number 45118; transaction id 20
+2021-04-28 10:00:59 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-04-28 10:00:59 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-04-28 10:00:59 0 [Warning] 'user' entry 'root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-04-28 10:00:59 0 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-04-28 10:00:59 0 [Note] InnoDB: Buffer pool(s) load completed at 210428 10:00:59
+2021-04-28 10:00:59 0 [Note] Reading of all Master_info entries succeeded
+2021-04-28 10:00:59 0 [Note] Added new Master_info '' to hash table
+2021-04-28 10:00:59 0 [Note] mysqld: ready for connections.
+Version: '10.5.9-MariaDB-1:10.5.9+maria~focal'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  mariadb.org binary distribution
+2021-04-28 10:01:02 5 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-04-28 10:01:02 0 [Note] mysqld (initiated by: root[root] @ localhost []): Normal shutdown
+2021-04-28 10:01:02 0 [Note] Event Scheduler: Purging the queue. 0 events
+2021-04-28 10:01:02 0 [Note] InnoDB: FTS optimize thread exiting.
+2021-04-28 10:01:02 0 [Note] InnoDB: Starting shutdown...
+2021-04-28 10:01:02 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2021-04-28 10:01:02 0 [Note] InnoDB: Buffer pool(s) dump completed at 210428 10:01:02
+2021-04-28 10:01:02 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-04-28 10:01:02 0 [Note] InnoDB: Shutdown completed; log sequence number 45130; transaction id 21
+2021-04-28 10:01:02 0 [Note] mysqld: Shutdown complete
+
+2021-04-28 10:01:03 0 [Note] InnoDB: Uses event mutexes
+2021-04-28 10:01:03 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-04-28 10:01:03 0 [Note] InnoDB: Number of pools: 1
+2021-04-28 10:01:03 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-04-28 10:01:03 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-04-28 10:01:03 0 [Note] InnoDB: Using Linux native AIO
+2021-04-28 10:01:03 0 [Note] InnoDB: Initializing buffer pool, total size = 536870912, chunk size = 134217728
+2021-04-28 10:01:03 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-04-28 10:01:03 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-04-28 10:01:03 0 [Note] InnoDB: 128 rollback segments are active.
+2021-04-28 10:01:03 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-04-28 10:01:03 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-04-28 10:01:03 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-04-28 10:01:03 0 [Note] InnoDB: 10.5.9 started; log sequence number 45130; transaction id 20
+2021-04-28 10:01:03 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-04-28 10:01:03 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-04-28 10:01:03 0 [Note] Server socket created on IP: '::'.
+2021-04-28 10:01:03 0 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-04-28 10:01:03 0 [Note] InnoDB: Buffer pool(s) load completed at 210428 10:01:03
+2021-04-28 10:01:03 0 [Note] Reading of all Master_info entries succeeded
+2021-04-28 10:01:03 0 [Note] Added new Master_info '' to hash table
+2021-04-28 10:01:03 0 [Note] mysqld: ready for connections.
+Version: '10.5.9-MariaDB-1:10.5.9+maria~focal'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2021-04-28 11:40:11 3 [Warning] Access denied for user 'root'@'172.18.0.1' (using password: YES)
+2021-04-28 11:46:45 4 [Warning] Access denied for user 'root'@'172.18.0.1' (using password: YES)
+2021-04-28 11:47:15 5 [Warning] Access denied for user 'root'@'172.18.0.1' (using password: NO)
+2021-04-28 16:18:54 6 [Warning] Aborted connection 6 to db: 'unconnected' user: 'root' host: '172.18.0.1' (Got an error reading communication packets)
+2021-04-29  9:12:31 8 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-04-29  9:13:22 8 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-04-29  9:32:36 8 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-04-29  9:32:58 8 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-04-29 12:33:57 8 [Warning] Aborted connection 8 to db: 'aldeesinfantils.org' user: 'root' host: '172.18.0.1' (Got an error reading communication packets)
+2021-05-11 14:50:21 18847 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-05-11 14:50:46 18847 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-05-11 15:41:50 19016 [Warning] Aborted connection 19016 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-05-11 15:41:56 19017 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-05-11 15:49:24 19017 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-05-11 15:49:34 19017 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-05-11 15:49:46 19017 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-05-11 15:49:49 19053 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'ecoauto'
+2021-05-11 15:50:01 19054 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'ecoauto'
+2021-05-11 15:50:05 19055 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'ecoauto'
+2021-05-11 15:53:22 19017 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-05-27  7:47:28 229698 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-05-27  7:47:33 229698 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-05-27  7:47:44 229698 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-05-31 15:50:00 383207 [Warning] Aborted connection 383207 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-05-31 15:50:05 383208 [Warning] Aborted connection 383208 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-06-02 14:22:25 433243 [Warning] Aborted connection 433243 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-06-02 14:26:26 433283 [Warning] Aborted connection 433283 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-06-02 14:33:19 0 [Note] mysqld (initiated by: unknown): Normal shutdown
+2021-06-02 14:33:19 0 [Note] Event Scheduler: Purging the queue. 0 events
+2021-06-02 14:33:31 0 [Note] InnoDB: Uses event mutexes
+2021-06-02 14:33:31 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-06-02 14:33:31 0 [Note] InnoDB: Number of pools: 1
+2021-06-02 14:33:31 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-06-02 14:33:31 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-06-02 14:33:31 0 [Note] InnoDB: Using Linux native AIO
+2021-06-02 14:33:31 0 [Note] InnoDB: Initializing buffer pool, total size = 536870912, chunk size = 134217728
+2021-06-02 14:33:31 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-06-02 14:33:31 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-06-02 14:33:31 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=223736139142,223737371680
+2021-06-02 14:33:32 0 [Note] InnoDB: Starting final batch to recover 740 pages from redo log.
+2021-06-02 14:33:33 0 [Note] InnoDB: 128 rollback segments are active.
+2021-06-02 14:33:33 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-06-02 14:33:33 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-06-02 14:33:33 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-06-02 14:33:33 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-06-02 14:33:33 0 [Note] InnoDB: 10.5.9 started; log sequence number 223743917366; transaction id 4538550
+2021-06-02 14:33:33 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-06-02 14:33:33 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-06-02 14:33:33 0 [Note] Server socket created on IP: '::'.
+2021-06-02 14:33:33 0 [Note] InnoDB: Buffer pool(s) load completed at 210602 14:33:33
+2021-06-02 14:33:33 0 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-06-02 14:33:33 0 [Note] Reading of all Master_info entries succeeded
+2021-06-02 14:33:33 0 [Note] Added new Master_info '' to hash table
+2021-06-02 14:33:33 0 [Note] mysqld: ready for connections.
+Version: '10.5.9-MariaDB-1:10.5.9+maria~focal'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2021-06-02 14:33:33 3 [ERROR] mysqld: Table './aldeesinfantils@002eorg/aldeesinf_options' is marked as crashed and should be repaired
+2021-06-02 14:33:33 3 [Warning] Checking table:   './aldeesinfantils@002eorg/aldeesinf_options'
+2021-06-02 14:35:00 0 [Note] mysqld (initiated by: unknown): Normal shutdown
+2021-06-02 14:35:00 0 [Note] Event Scheduler: Purging the queue. 0 events
+2021-06-02 14:35:00 0 [Note] InnoDB: FTS optimize thread exiting.
+2021-06-02 14:35:00 0 [Note] InnoDB: Starting shutdown...
+2021-06-02 14:35:00 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2021-06-02 14:35:00 0 [Note] InnoDB: Buffer pool(s) dump completed at 210602 14:35:00
+2021-06-02 14:35:01 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-06-02 14:35:01 0 [Note] InnoDB: Shutdown completed; log sequence number 223743973704; transaction id 4538551
+2021-06-02 14:35:01 0 [Note] mysqld: Shutdown complete
+
+2021-06-02 14:35:02 0 [Note] InnoDB: Uses event mutexes
+2021-06-02 14:35:02 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-06-02 14:35:02 0 [Note] InnoDB: Number of pools: 1
+2021-06-02 14:35:02 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-06-02 14:35:02 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-06-02 14:35:02 0 [Note] InnoDB: Using Linux native AIO
+2021-06-02 14:35:02 0 [Note] InnoDB: Initializing buffer pool, total size = 536870912, chunk size = 134217728
+2021-06-02 14:35:02 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-06-02 14:35:02 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-06-02 14:35:02 0 [Note] InnoDB: 128 rollback segments are active.
+2021-06-02 14:35:02 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-06-02 14:35:02 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-06-02 14:35:02 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-06-02 14:35:02 0 [Note] InnoDB: 10.5.9 started; log sequence number 223743973704; transaction id 4538550
+2021-06-02 14:35:02 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-06-02 14:35:02 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-06-02 14:35:02 0 [Note] Server socket created on IP: '::'.
+2021-06-02 14:35:02 0 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-06-02 14:35:02 0 [Note] Reading of all Master_info entries succeeded
+2021-06-02 14:35:02 0 [Note] Added new Master_info '' to hash table
+2021-06-02 14:35:02 0 [Note] mysqld: ready for connections.
+Version: '10.5.9-MariaDB-1:10.5.9+maria~focal'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2021-06-02 14:35:02 0 [Note] InnoDB: Buffer pool(s) load completed at 210602 14:35:02
+2021-06-02 14:35:07 0 [Note] mysqld (initiated by: unknown): Normal shutdown
+2021-06-02 14:35:07 0 [Note] Event Scheduler: Purging the queue. 0 events
+2021-06-02 14:35:07 0 [Note] InnoDB: FTS optimize thread exiting.
+2021-06-02 14:35:07 0 [Note] InnoDB: Starting shutdown...
+2021-06-02 14:35:07 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2021-06-02 14:35:07 0 [Note] InnoDB: Buffer pool(s) dump completed at 210602 14:35:07
+2021-06-02 14:35:07 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-06-02 14:35:07 0 [Note] InnoDB: Shutdown completed; log sequence number 223743973716; transaction id 4538551
+2021-06-02 14:35:07 0 [Note] mysqld: Shutdown complete
+
+2021-06-02 14:35:09 0 [Note] InnoDB: Uses event mutexes
+2021-06-02 14:35:09 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-06-02 14:35:09 0 [Note] InnoDB: Number of pools: 1
+2021-06-02 14:35:09 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-06-02 14:35:09 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-06-02 14:35:09 0 [Note] InnoDB: Using Linux native AIO
+2021-06-02 14:35:09 0 [Note] InnoDB: Initializing buffer pool, total size = 536870912, chunk size = 134217728
+2021-06-02 14:35:09 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-06-02 14:35:09 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-06-02 14:35:09 0 [Note] InnoDB: 128 rollback segments are active.
+2021-06-02 14:35:09 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-06-02 14:35:09 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-06-02 14:35:09 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-06-02 14:35:09 0 [Note] InnoDB: 10.5.9 started; log sequence number 223743973716; transaction id 4538550
+2021-06-02 14:35:09 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-06-02 14:35:09 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-06-02 14:35:09 0 [Note] Server socket created on IP: '::'.
+2021-06-02 14:35:09 0 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-06-02 14:35:09 0 [Note] Reading of all Master_info entries succeeded
+2021-06-02 14:35:09 0 [Note] Added new Master_info '' to hash table
+2021-06-02 14:35:09 0 [Note] mysqld: ready for connections.
+Version: '10.5.9-MariaDB-1:10.5.9+maria~focal'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2021-06-02 14:35:09 0 [Note] InnoDB: Buffer pool(s) load completed at 210602 14:35:09
+2021-06-02 14:37:27 5 [Warning] Aborted connection 5 to db: 'desguacesecoauto.com' user: 'root' host: '172.18.0.1' (Got an error reading communication packets)
+2021-06-02 14:37:35 6 [Warning] Aborted connection 6 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-06-02 14:37:51 8 [Warning] Aborted connection 8 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-06-02 14:41:45 65 [ERROR] mysqld: Table './aldeesinfantils@002eorg/aldeesinf_itsec_logs' is marked as crashed and should be repaired
+2021-06-02 14:41:45 65 [Warning] Checking table:   './aldeesinfantils@002eorg/aldeesinf_itsec_logs'
+2021-06-02 14:43:27 9 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-06-02 14:43:40 9 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-06-02 17:08:58 9 [Warning] Aborted connection 9 to db: 'desguacesecoauto.com' user: 'root' host: '172.18.0.1' (Got an error reading communication packets)
+2021-06-29 13:36:09 385811 [Warning] Aborted connection 385811 to db: 'desguacesecoauto.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-06-29 13:36:09 385810 [Warning] Aborted connection 385810 to db: 'desguacesecoauto.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-06-29 13:37:56 385825 [Warning] Aborted connection 385825 to db: 'desguacesecoauto.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-06-29 13:37:56 385829 [Warning] Aborted connection 385829 to db: 'desguacesecoauto.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-06-29 13:37:56 385826 [Warning] Aborted connection 385826 to db: 'desguacesecoauto.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-06-29 13:37:56 385824 [Warning] Aborted connection 385824 to db: 'desguacesecoauto.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-06-29 13:37:56 385828 [Warning] Aborted connection 385828 to db: 'desguacesecoauto.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-06-29 13:37:56 385827 [Warning] Aborted connection 385827 to db: 'desguacesecoauto.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-06-29 13:40:38 385809 [Warning] Aborted connection 385809 to db: 'desguacesecoauto.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-06-29 15:17:47 386701 [Warning] Aborted connection 386701 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-06-29 15:18:24 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:25 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:27 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:28 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:29 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:30 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:32 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:33 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:35 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:37 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:37 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:39 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:40 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:42 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:43 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:45 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:46 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:48 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:49 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:50 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:51 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:52 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:53 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:54 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:56 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:57 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:18:59 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:00 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:01 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:03 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:04 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:06 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:07 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:08 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:10 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:11 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:12 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:14 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:15 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:16 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:17 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:18 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:19 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:19 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:20 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:21 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:22 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:23 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:24 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:26 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:27 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:29 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:30 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:32 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:33 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:35 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:35 386729 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:19:35 386730 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:19:36 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:36 386731 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:19:37 386732 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:19:37 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:37 386733 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:19:37 386734 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:19:38 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:39 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:48 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:49 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:52 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:55 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:57 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:58 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:19:59 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:01 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:01 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:03 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:03 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:05 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:06 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:08 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:09 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:11 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:12 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:13 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:14 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:16 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:18 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:20 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:21 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:23 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:24 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:25 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:27 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:27 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:28 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:29 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:29 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:30 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:31 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:32 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:34 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:35 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:36 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:38 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:38 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:39 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:40 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:40 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:41 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:42 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:42 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:43 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:44 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:44 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:45 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:47 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:48 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:49 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:51 386735 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:20:51 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:53 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:54 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:54 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:55 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:20:59 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:00 386736 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:21:00 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:01 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:03 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:04 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:06 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:07 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:08 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:08 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:10 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:11 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:12 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:14 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:14 386737 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:21:16 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:16 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:17 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:18 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:18 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:19 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:20 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:20 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:21 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:22 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:22 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:24 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:24 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:25 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:27 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:27 386738 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:21:28 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:29 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:33 386739 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:21:33 386740 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:21:34 386741 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:21:34 386742 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:21:37 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:38 386743 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:21:38 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:39 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:40 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:41 386744 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:21:42 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:43 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:45 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:46 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:47 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:48 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:48 386745 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:21:50 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:51 386746 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:21:51 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:52 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:54 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:55 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:57 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:57 386747 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:21:58 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:21:59 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:00 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:01 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:03 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:04 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:06 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:06 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:08 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:09 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:11 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:12 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:14 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:15 386748 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:22:15 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:16 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:16 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:18 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:18 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:19 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:20 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:22 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:22 386749 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:22:22 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:23 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:24 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:25 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:27 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:27 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:29 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:38 386750 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:22:39 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:41 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:42 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:42 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:43 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:45 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:46 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:47 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:47 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:49 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:50 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:51 386751 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:22:52 386752 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:22:53 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:22:56 386690 [Note] InnoDB: Cannot close file ./ecoautotest@002esetecem@002ecom/eavps_employee.ibd because of 0 pending operations and pending fsync
+2021-06-29 15:23:15 386753 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:23:22 386755 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:23:22 386756 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:23:31 386757 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:23:38 386758 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:23:47 386759 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:23:49 386760 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:23:50 386761 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:23:51 386762 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:15 386763 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:19 386764 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:23 386765 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:31 386766 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:34 386767 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:36 386768 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:36 386769 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:36 386770 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:36 386771 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:37 386772 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:37 386773 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:37 386774 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:37 386775 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:37 386776 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:37 386777 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:38 386778 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:38 386779 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:38 386780 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:38 386781 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:38 386782 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:38 386783 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:38 386784 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:39 386785 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:39 386786 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:39 386787 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:39 386788 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:39 386789 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:39 386790 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:40 386791 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:40 386792 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:40 386793 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:40 386794 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:40 386795 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:40 386796 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:46 386797 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:49 386798 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:24:50 386799 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:25:19 386800 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:25:23 386801 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:25:32 386802 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:25:33 386803 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:25:39 386804 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:25:47 386805 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:25:50 386806 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:25:51 386807 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:26:07 386808 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:26:19 386809 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:26:26 386810 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:26:32 386811 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:26:50 386812 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:26:51 386813 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:27:11 386818 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:27:19 386823 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:27:32 386824 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:27:37 386825 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:27:57 386826 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:28:08 386827 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:28:10 386828 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:28:21 386835 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:28:28 386836 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:28:38 386837 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:28:38 386838 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:28:59 386839 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:28:59 386840 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:29:25 386841 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:29:38 386842 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:30:25 386844 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:30:29 386845 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:30:36 386846 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:30:36 386847 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:30:37 386848 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:30:37 386849 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:30:38 386850 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:30:39 386851 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:30:45 386852 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:30:45 386853 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:31:12 386854 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:31:16 386855 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:31:26 386856 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:31:39 386857 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:31:49 386858 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:32:26 386859 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:33:03 386860 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:33:53 386861 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:34:02 386862 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:34:53 386863 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:35:02 386864 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:35:10 386865 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:35:18 386866 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:35:27 386867 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:35:35 386868 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:35:49 386869 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:35:57 386870 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:36:02 386871 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:36:11 386872 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:36:12 386873 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:36:19 386874 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:36:21 386875 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:36:34 386876 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:37:03 386877 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:37:04 386878 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:37:19 386879 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:37:26 386880 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:37:40 386881 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:37:51 386882 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:37:51 386883 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:37:52 386884 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:38:19 386885 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:38:26 386886 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:38:32 386887 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:39:12 386690 [Warning] Aborted connection 386690 to db: 'ecoautotest.setecem.com' user: 'root' host: '172.18.0.1' (Got an error reading communication packets)
+2021-06-29 15:39:13 386888 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:39:14 386889 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:39:18 386890 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:39:26 386891 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:39:27 386892 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:39:28 386893 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:39:29 386894 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:39:32 386895 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:39:45 386896 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:40:18 386897 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:40:26 386898 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:40:32 386899 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:40:54 386900 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:41:07 386901 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:41:16 386902 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:41:19 386903 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:41:32 386904 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:41:50 386905 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:41:51 386906 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:41:54 386907 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:41:56 386908 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:42:16 386909 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:42:46 386910 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:42:55 386911 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:43:03 386912 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:43:05 386913 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:43:16 386914 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:43:50 386915 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:43:55 386916 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:44:00 386917 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:44:16 386918 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:44:38 386919 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:45:00 386920 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:45:03 386921 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:45:05 386922 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:45:13 386923 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:45:19 386924 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:45:34 386925 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:01 386926 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:04 386927 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:05 386928 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:08 386929 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:09 386930 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:11 386931 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:33 386932 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:33 386933 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:34 386934 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:34 386935 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:35 386936 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:39 386937 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:39 386938 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:42 386939 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:44 386940 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:48 386941 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:49 386942 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:49 386943 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:50 386944 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:53 386945 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:54 386946 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:54 386947 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:55 386948 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:56 386949 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:57 386950 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:58 386951 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:46:58 386952 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:47:01 386953 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:47:08 386954 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:47:37 386955 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:47:51 386956 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:48:23 386957 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:48:48 386958 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:48:57 386959 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:49:30 386960 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:49:40 386965 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:49:44 386966 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:50:05 386967 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:50:46 386968 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:50:46 386969 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:50:47 386970 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:50:47 386971 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:50:47 386972 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:50:47 386973 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:50:48 386974 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:50:48 386975 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:50:49 386976 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:50:49 386977 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:50:49 386978 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:50:49 386979 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:50:49 386980 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:50:49 386981 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:50:49 386982 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:50:49 386983 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'desguacesecoauto.prod.com'
+2021-06-29 15:51:02 386843 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-06-29 15:51:05 386984 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-06-29 15:51:11 386843 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-06-29 17:26:35 386702 [Warning] Aborted connection 386702 to db: 'desguacesecoauto.prod.com' user: 'root' host: '172.18.0.1' (Got an error reading communication packets)
+2021-07-01  7:42:16 404811 [Warning] Aborted connection 404811 to db: 'desguacesecoauto.prod.com' user: 'root' host: '172.18.0.1' (Got an error reading communication packets)
+2021-07-06  8:16:39 600180 [Warning] Aborted connection 600180 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-07-06  8:16:45 600185 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-07-06  8:17:17 600185 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-07-06  9:50:32 603438 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'ecoauto'
+2021-07-06  9:55:12 603601 [Warning] Access denied for user 'ecoauto'@'172.18.0.%' to database 'MoC4vava'
+2021-07-06 10:15:47 604599 [Warning] Aborted connection 604599 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got an error reading communication packets)
+2021-07-06 10:15:47 604597 [Warning] Aborted connection 604597 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got an error reading communication packets)
+2021-07-06 10:15:47 604595 [Warning] Aborted connection 604595 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got an error reading communication packets)
+2021-07-06 10:15:47 604598 [Warning] Aborted connection 604598 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got an error reading communication packets)
+2021-07-06 10:15:47 604594 [Warning] Aborted connection 604594 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got an error reading communication packets)
+2021-07-06 10:15:47 604596 [Warning] Aborted connection 604596 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got an error reading communication packets)
+2021-07-06 10:15:47 604584 [Warning] Aborted connection 604584 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 10:15:47 604580 [Warning] Aborted connection 604580 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got an error reading communication packets)
+2021-07-06 10:15:47 604579 [Warning] Aborted connection 604579 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got an error reading communication packets)
+2021-07-06 10:15:47 604616 [Warning] Aborted connection 604616 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 10:15:47 604609 [Warning] Aborted connection 604609 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 10:15:48 604585 [Warning] Aborted connection 604585 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 10:15:48 604608 [Warning] Aborted connection 604608 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 10:15:48 604590 [Warning] Aborted connection 604590 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 10:15:48 604606 [Warning] Aborted connection 604606 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 10:15:48 604617 [Warning] Aborted connection 604617 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 10:15:48 604615 [Warning] Aborted connection 604615 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 10:15:49 0 [Note] mysqld (initiated by: unknown): Normal shutdown
+2021-07-06 10:15:49 0 [Note] Event Scheduler: Purging the queue. 0 events
+2021-07-06 10:16:01 0 [Note] InnoDB: Uses event mutexes
+2021-07-06 10:16:01 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-07-06 10:16:01 0 [Note] InnoDB: Number of pools: 1
+2021-07-06 10:16:01 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-07-06 10:16:01 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-07-06 10:16:02 0 [Note] InnoDB: Using Linux native AIO
+2021-07-06 10:16:02 0 [Note] InnoDB: Initializing buffer pool, total size = 536870912, chunk size = 134217728
+2021-07-06 10:16:02 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-07-06 10:16:02 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-07-06 10:16:02 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=417718893113,417720109654
+2021-07-06 10:16:03 0 [Note] InnoDB: Ignoring data file './desguacesecoauto@002eprod@002ecom/eavps_image.ibd' with space ID 2982, since the redo log references ./desguacesecoauto@002eprod@002ecom/eavps_image.ibd with space ID 2608.
+2021-07-06 10:16:03 0 [Note] InnoDB: Ignoring data file './desguacesecoauto@002eprod@002ecom/eavps_image_lang.ibd' with space ID 2983, since the redo log references ./desguacesecoauto@002eprod@002ecom/eavps_image_lang.ibd with space ID 2609.
+2021-07-06 10:16:03 0 [Note] InnoDB: Ignoring data file './desguacesecoauto@002eprod@002ecom/eavps_image_shop.ibd' with space ID 2984, since the redo log references ./desguacesecoauto@002eprod@002ecom/eavps_image_shop.ibd with space ID 2610.
+2021-07-06 10:16:03 0 [Note] InnoDB: Ignoring data file './desguacesecoauto@002eprod@002ecom/eavps_product.ibd' with space ID 2985, since the redo log references ./desguacesecoauto@002eprod@002ecom/eavps_product.ibd with space ID 2770.
+2021-07-06 10:16:03 0 [Note] InnoDB: Ignoring data file './desguacesecoauto@002eprod@002ecom/eavps_product_shop.ibd' with space ID 2986, since the redo log references ./desguacesecoauto@002eprod@002ecom/eavps_product_shop.ibd with space ID 2790.
+2021-07-06 10:16:03 0 [Note] InnoDB: 2 transaction(s) which must be rolled back or cleaned up in total 2 row operations to undo
+2021-07-06 10:16:03 0 [Note] InnoDB: Trx id counter is 10246614
+2021-07-06 10:16:03 0 [Note] InnoDB: Starting final batch to recover 4653 pages from redo log.
+2021-07-06 10:16:05 0 [Note] InnoDB: 128 rollback segments are active.
+2021-07-06 10:16:05 0 [Note] InnoDB: Starting in background the rollback of recovered transactions
+2021-07-06 10:16:05 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-07-06 10:16:05 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-07-06 10:16:05 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-07-06 10:16:05 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-07-06 10:16:05 0 [Note] InnoDB: 10.5.9 started; log sequence number 417792730638; transaction id 10246616
+2021-07-06 10:16:05 0 [Note] InnoDB: Rolled back recovered transaction 10246595
+2021-07-06 10:16:05 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-07-06 10:16:05 0 [Note] InnoDB: Rolled back recovered transaction 10246613
+2021-07-06 10:16:05 0 [Note] InnoDB: Rollback of non-prepared transactions completed
+2021-07-06 10:16:05 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-07-06 10:16:05 0 [Note] Server socket created on IP: '::'.
+2021-07-06 10:16:05 0 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-07-06 10:16:05 0 [Note] Reading of all Master_info entries succeeded
+2021-07-06 10:16:05 0 [Note] Added new Master_info '' to hash table
+2021-07-06 10:16:05 0 [Note] mysqld: ready for connections.
+Version: '10.5.9-MariaDB-1:10.5.9+maria~focal'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2021-07-06 10:16:05 0 [Note] InnoDB: Buffer pool(s) load completed at 210706 10:16:05
+2021-07-06 10:19:35 127 [ERROR] mysqld: Table './aldeesinfantils@002eorg/aldeesinf_options' is marked as crashed and should be repaired
+2021-07-06 10:19:35 127 [Warning] Checking table:   './aldeesinfantils@002eorg/aldeesinf_options'
+2021-07-06 10:19:37 127 [ERROR] mysqld: Table './aldeesinfantils@002eorg/aldeesinf_itsec_logs' is marked as crashed and should be repaired
+2021-07-06 10:19:37 127 [Warning] Checking table:   './aldeesinfantils@002eorg/aldeesinf_itsec_logs'
+2021-07-06 10:55:17 1250 [Warning] Aborted connection 1250 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 10:55:17 1251 [Warning] Aborted connection 1251 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 10:55:29 1260 [Warning] Aborted connection 1260 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 10:55:29 1261 [Warning] Aborted connection 1261 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 10:55:29 1259 [Warning] Aborted connection 1259 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 10:55:29 1264 [Warning] Aborted connection 1264 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 10:55:29 1265 [Warning] Aborted connection 1265 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 10:55:29 1263 [Warning] Aborted connection 1263 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 10:55:37 1271 [Warning] Aborted connection 1271 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 10:55:37 1270 [Warning] Aborted connection 1270 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 10:55:37 1269 [Warning] Aborted connection 1269 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 11:55:51 3233 [Warning] Aborted connection 3233 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 11:55:51 3232 [Warning] Aborted connection 3232 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 11:57:24 3267 [Warning] Aborted connection 3267 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 11:57:24 3270 [Warning] Aborted connection 3270 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 11:57:24 3268 [Warning] Aborted connection 3268 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 11:57:24 3266 [Warning] Aborted connection 3266 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 11:57:24 3271 [Warning] Aborted connection 3271 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 11:57:24 3269 [Warning] Aborted connection 3269 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 15:17:41 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:41 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:41 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:41 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:41 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:41 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:41 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:41 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:41 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:42 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:42 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:42 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:42 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:42 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:42 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:42 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:42 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:42 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:42 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:42 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:42 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:42 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:42 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:42 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:43 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:43 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:43 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:17:43 10376 [Note] InnoDB: Cannot close file ./desguacesecoauto@002eprod@002ecom/eavps_stock_available.ibd because of 0 pending operations and pending fsync
+2021-07-06 15:33:35 11373 [Warning] Aborted connection 11373 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 15:33:35 11374 [Warning] Aborted connection 11374 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 15:34:00 11386 [Warning] Aborted connection 11386 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 15:35:13 11434 [Warning] Aborted connection 11434 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 15:35:13 11435 [Warning] Aborted connection 11435 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 15:35:13 11433 [Warning] Aborted connection 11433 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 15:35:13 11437 [Warning] Aborted connection 11437 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 15:35:13 11436 [Warning] Aborted connection 11436 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 15:35:13 11438 [Warning] Aborted connection 11438 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-06 15:43:40 12136 [Warning] Aborted connection 12136 to db: 'casual_escorts_com' user: 'casual-escorts.com' host: '172.18.0.4' (Got an error reading communication packets)
+2021-07-06 15:46:57 12239 [Warning] Aborted connection 12239 to db: 'casual_escorts_com' user: 'casual-escorts.com' host: '172.18.0.4' (Got an error reading communication packets)
+2021-07-06 15:46:57 12238 [Warning] Aborted connection 12238 to db: 'casual_escorts_com' user: 'casual-escorts.com' host: '172.18.0.4' (Got an error reading communication packets)
+2021-07-07  8:50:33 81751 [Warning] Aborted connection 81751 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  8:50:33 81752 [Warning] Aborted connection 81752 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  8:50:41 81757 [Warning] Aborted connection 81757 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  8:50:41 81758 [Warning] Aborted connection 81758 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  8:50:42 81756 [Warning] Aborted connection 81756 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  8:52:05 81855 [Warning] Aborted connection 81855 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  8:52:05 81856 [Warning] Aborted connection 81856 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  8:52:05 81857 [Warning] Aborted connection 81857 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  8:52:05 81854 [Warning] Aborted connection 81854 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  8:52:06 81858 [Warning] Aborted connection 81858 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  8:52:06 81859 [Warning] Aborted connection 81859 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  9:00:41 82464 [Warning] Aborted connection 82464 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  9:04:27 82715 [Warning] Aborted connection 82715 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  9:04:27 82716 [Warning] Aborted connection 82716 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  9:04:27 82714 [Warning] Aborted connection 82714 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  9:04:45 82750 [Warning] Aborted connection 82750 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  9:04:45 82751 [Warning] Aborted connection 82751 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  9:04:45 82749 [Warning] Aborted connection 82749 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  9:04:50 82758 [Warning] Aborted connection 82758 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  9:04:50 82759 [Warning] Aborted connection 82759 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  9:04:50 82757 [Warning] Aborted connection 82757 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  9:06:01 82809 [Warning] Aborted connection 82809 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  9:06:01 82810 [Warning] Aborted connection 82810 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  9:06:02 82808 [Warning] Aborted connection 82808 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  9:06:55 82866 [Warning] Aborted connection 82866 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  9:06:55 82867 [Warning] Aborted connection 82867 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07  9:06:55 82865 [Warning] Aborted connection 82865 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07 16:40:01 111693 [Warning] Aborted connection 111693 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-07 16:40:01 111694 [Warning] Aborted connection 111694 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-12 10:05:13 459515 [Warning] Aborted connection 459515 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-12 10:05:13 459516 [Warning] Aborted connection 459516 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-12 10:19:43 460072 [Warning] Aborted connection 460072 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-12 10:19:43 460071 [Warning] Aborted connection 460071 to db: 'desguacesecoauto.prod.com' user: 'ecoauto' host: '172.18.0.4' (Got timeout reading communication packets)
+2021-07-14 11:29:30 575846 [Warning] Access denied for user 'root'@'172.18.0.1' (using password: NO)
+2021-07-14 11:29:35 575787 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-07-22 16:57:53 952596 [Warning] Aborted connection 952596 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-07-22 16:57:58 952598 [Warning] Aborted connection 952598 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-07-22 16:58:01 952600 [Warning] Aborted connection 952600 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-07-22 16:58:21 952582 [Warning] Aborted connection 952582 to db: 'casual_escorts_com' user: 'root' host: '172.18.0.1' (Got an error reading communication packets)
+2021-07-22 16:58:33 952614 [Warning] Aborted connection 952614 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-07-23  8:11:03 974497 [Warning] Aborted connection 974497 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-07-23  8:11:03 974496 [Warning] Aborted connection 974496 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-07-23  8:27:47 974738 [Warning] Aborted connection 974738 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-07-23  8:27:47 974737 [Warning] Aborted connection 974737 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-07-23  9:12:48 975660 [Warning] Aborted connection 975660 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-07-23  9:14:04 975688 [Warning] Aborted connection 975688 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-07-23  9:14:04 975689 [Warning] Aborted connection 975689 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-07-23  9:20:45 975807 [Warning] Aborted connection 975807 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-07-23  9:20:45 975808 [Warning] Aborted connection 975808 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-07-23 11:03:26 977714 [Warning] Aborted connection 977714 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-07-26  8:13:30 1086704 [Warning] Aborted connection 1086704 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-07-26  8:14:57 1086761 [Warning] Aborted connection 1086761 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-07-26  8:18:46 1086881 [Warning] Aborted connection 1086881 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-07-26 14:55:21 1118088 [Warning] Aborted connection 1118088 to db: 'unconnected' user: 'unauthenticated' host: '172.18.0.1' (This connection closed normally without authentication)
+2021-07-26 14:55:44 0 [Note] mysqld (initiated by: unknown): Normal shutdown
+2021-07-26 14:55:44 0 [Note] Event Scheduler: Purging the queue. 0 events
+2021-07-26 14:55:44 0 [Note] InnoDB: FTS optimize thread exiting.
+2021-07-26 14:55:45 0 [Note] InnoDB: Starting shutdown...
+2021-07-26 14:55:45 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2021-07-26 14:55:45 0 [Note] InnoDB: Restricted to 8065 pages due to innodb_buf_pool_dump_pct=25
+2021-07-26 14:55:45 0 [Note] InnoDB: Buffer pool(s) dump completed at 210726 14:55:45
+2021-07-26 14:55:45 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-07-26 14:55:45 0 [Note] InnoDB: Shutdown completed; log sequence number 629205545131; transaction id 19269661
+2021-07-26 14:55:45 0 [Note] mysqld: Shutdown complete
+
+2021-07-26 14:55:48 0 [Note] InnoDB: Uses event mutexes
+2021-07-26 14:55:48 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-07-26 14:55:48 0 [Note] InnoDB: Number of pools: 1
+2021-07-26 14:55:48 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-07-26 14:55:48 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-07-26 14:55:48 0 [Note] InnoDB: Using Linux native AIO
+2021-07-26 14:55:48 0 [Note] InnoDB: Initializing buffer pool, total size = 536870912, chunk size = 134217728
+2021-07-26 14:55:48 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-07-26 14:55:48 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-07-26 14:55:48 0 [Note] InnoDB: 128 rollback segments are active.
+2021-07-26 14:55:48 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-07-26 14:55:48 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-07-26 14:55:48 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-07-26 14:55:48 0 [Note] InnoDB: 10.5.9 started; log sequence number 629205545131; transaction id 19269663
+2021-07-26 14:55:48 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-07-26 14:55:48 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-07-26 14:55:48 0 [Note] Server socket created on IP: '::'.
+2021-07-26 14:55:48 0 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-07-26 14:55:48 0 [Note] Reading of all Master_info entries succeeded
+2021-07-26 14:55:48 0 [Note] Added new Master_info '' to hash table
+2021-07-26 14:55:48 0 [Note] mysqld: ready for connections.
+Version: '10.5.9-MariaDB-1:10.5.9+maria~focal'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2021-07-26 14:55:53 0 [Note] InnoDB: Buffer pool(s) load completed at 210726 14:55:53
+2021-07-26 14:56:15 0 [Note] mysqld (initiated by: unknown): Normal shutdown
+2021-07-26 14:56:15 0 [Note] Event Scheduler: Purging the queue. 0 events
+2021-07-26 14:56:15 0 [Note] InnoDB: FTS optimize thread exiting.
+2021-07-26 14:56:15 0 [Note] InnoDB: Starting shutdown...
+2021-07-26 14:56:15 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2021-07-26 14:56:15 0 [Note] InnoDB: Restricted to 8065 pages due to innodb_buf_pool_dump_pct=25
+2021-07-26 14:56:15 0 [Note] InnoDB: Buffer pool(s) dump completed at 210726 14:56:15
+2021-07-26 14:56:15 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2021-07-26 14:56:15 0 [Note] InnoDB: Shutdown completed; log sequence number 629205553400; transaction id 19269932
+2021-07-26 14:56:15 0 [Note] mysqld: Shutdown complete
+
+2021-07-26 14:56:17 0 [Note] InnoDB: Uses event mutexes
+2021-07-26 14:56:17 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2021-07-26 14:56:17 0 [Note] InnoDB: Number of pools: 1
+2021-07-26 14:56:17 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2021-07-26 14:56:17 0 [Note] mysqld: O_TMPFILE is not supported on /tmp (disabling future attempts)
+2021-07-26 14:56:17 0 [Note] InnoDB: Using Linux native AIO
+2021-07-26 14:56:17 0 [Note] InnoDB: Initializing buffer pool, total size = 536870912, chunk size = 134217728
+2021-07-26 14:56:17 0 [Note] InnoDB: Completed initialization of buffer pool
+2021-07-26 14:56:17 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2021-07-26 14:56:17 0 [Note] InnoDB: 128 rollback segments are active.
+2021-07-26 14:56:17 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2021-07-26 14:56:17 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2021-07-26 14:56:17 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2021-07-26 14:56:17 0 [Note] InnoDB: 10.5.9 started; log sequence number 629205553400; transaction id 19269933
+2021-07-26 14:56:17 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2021-07-26 14:56:17 0 [Note] Plugin 'FEEDBACK' is disabled.
+2021-07-26 14:56:17 0 [Note] Server socket created on IP: '::'.
+2021-07-26 14:56:17 0 [Warning] 'proxies_priv' entry '@% root@248abd60818d' ignored in --skip-name-resolve mode.
+2021-07-26 14:56:17 0 [Note] Reading of all Master_info entries succeeded
+2021-07-26 14:56:17 0 [Note] Added new Master_info '' to hash table
+2021-07-26 14:56:17 0 [Note] mysqld: ready for connections.
+Version: '10.5.9-MariaDB-1:10.5.9+maria~focal'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  mariadb.org binary distribution
+2021-07-26 14:56:22 0 [Note] InnoDB: Buffer pool(s) load completed at 210726 14:56:22

@@ -1,0 +1,76 @@
+2022-04-20 16:53:26,965:DEBUG:certbot._internal.main:certbot version: 1.22.0
+2022-04-20 16:53:26,966:DEBUG:certbot._internal.main:Location of certbot entry point: /usr/local/bin/certbot
+2022-04-20 16:53:26,966:DEBUG:certbot._internal.main:Arguments: []
+2022-04-20 16:53:26,966:DEBUG:certbot._internal.main:Discovered plugins: PluginsRegistry(PluginEntryPoint#manual,PluginEntryPoint#null,PluginEntryPoint#standalone,PluginEntryPoint#webroot)
+2022-04-20 16:53:26,994:DEBUG:certbot._internal.log:Root logging level set at 30
+2022-04-20 16:53:26,997:DEBUG:certbot._internal.display.obj:Notifying user: Processing /etc/letsencrypt/renewal/aldeesinfantils.org.conf
+2022-04-20 16:53:27,019:DEBUG:certbot._internal.plugins.selection:Requested authenticator <certbot._internal.cli.cli_utils._Default object at 0x7f6dfd147fa0> and installer <certbot._internal.cli.cli_utils._Default object at 0x7f6dfd147fa0>
+2022-04-20 16:53:27,058:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): r3.o.lencr.org:80
+2022-04-20 16:53:27,227:DEBUG:urllib3.connectionpool:http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2022-04-20 16:53:27,228:DEBUG:certbot.ocsp:OCSP response for certificate /etc/letsencrypt/archive/aldeesinfantils.org/cert6.pem is signed by the certificate's issuer.
+2022-04-20 16:53:27,229:DEBUG:certbot.ocsp:OCSP certificate status for /etc/letsencrypt/archive/aldeesinfantils.org/cert6.pem is: OCSPCertStatus.GOOD
+2022-04-20 16:53:27,232:DEBUG:certbot._internal.display.obj:Notifying user: Certificate not yet due for renewal
+2022-04-20 16:53:27,233:DEBUG:certbot._internal.plugins.selection:Requested authenticator webroot and installer None
+2022-04-20 16:53:27,233:DEBUG:certbot._internal.display.obj:Notifying user: Processing /etc/letsencrypt/renewal/campus.festefort.cat.conf
+2022-04-20 16:53:27,252:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): r3.o.lencr.org:80
+2022-04-20 16:53:27,424:DEBUG:urllib3.connectionpool:http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2022-04-20 16:53:27,426:DEBUG:certbot.ocsp:OCSP response for certificate /etc/letsencrypt/archive/campus.festefort.cat/cert3.pem is signed by the certificate's issuer.
+2022-04-20 16:53:27,426:DEBUG:certbot.ocsp:OCSP certificate status for /etc/letsencrypt/archive/campus.festefort.cat/cert3.pem is: OCSPCertStatus.GOOD
+2022-04-20 16:53:27,427:DEBUG:certbot._internal.display.obj:Notifying user: Certificate not yet due for renewal
+2022-04-20 16:53:27,428:DEBUG:certbot._internal.plugins.selection:Requested authenticator webroot and installer None
+2022-04-20 16:53:27,428:DEBUG:certbot._internal.display.obj:Notifying user: Processing /etc/letsencrypt/renewal/casual-escorts.com.conf
+2022-04-20 16:53:27,451:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): r3.o.lencr.org:80
+2022-04-20 16:53:27,623:DEBUG:urllib3.connectionpool:http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2022-04-20 16:53:27,624:DEBUG:certbot.ocsp:OCSP response for certificate /etc/letsencrypt/archive/casual-escorts.com/cert7.pem is signed by the certificate's issuer.
+2022-04-20 16:53:27,625:DEBUG:certbot.ocsp:OCSP certificate status for /etc/letsencrypt/archive/casual-escorts.com/cert7.pem is: OCSPCertStatus.GOOD
+2022-04-20 16:53:27,626:DEBUG:certbot._internal.display.obj:Notifying user: Certificate not yet due for renewal
+2022-04-20 16:53:27,627:DEBUG:certbot._internal.plugins.selection:Requested authenticator webroot and installer None
+2022-04-20 16:53:27,627:DEBUG:certbot._internal.display.obj:Notifying user: Processing /etc/letsencrypt/renewal/desguacesecoauto.com.conf
+2022-04-20 16:53:27,649:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): r3.o.lencr.org:80
+2022-04-20 16:53:27,818:DEBUG:urllib3.connectionpool:http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2022-04-20 16:53:27,819:DEBUG:certbot.ocsp:OCSP response for certificate /etc/letsencrypt/archive/desguacesecoauto.com/cert6.pem is signed by the certificate's issuer.
+2022-04-20 16:53:27,820:DEBUG:certbot.ocsp:OCSP certificate status for /etc/letsencrypt/archive/desguacesecoauto.com/cert6.pem is: OCSPCertStatus.GOOD
+2022-04-20 16:53:27,821:DEBUG:certbot._internal.display.obj:Notifying user: Certificate not yet due for renewal
+2022-04-20 16:53:27,822:DEBUG:certbot._internal.plugins.selection:Requested authenticator webroot and installer None
+2022-04-20 16:53:27,822:DEBUG:certbot._internal.display.obj:Notifying user: Processing /etc/letsencrypt/renewal/ecoautotest.setecem.com.conf
+2022-04-20 16:53:27,844:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): r3.o.lencr.org:80
+2022-04-20 16:53:28,014:DEBUG:urllib3.connectionpool:http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2022-04-20 16:53:28,015:DEBUG:certbot.ocsp:OCSP response for certificate /etc/letsencrypt/archive/ecoautotest.setecem.com/cert5.pem is signed by the certificate's issuer.
+2022-04-20 16:53:28,016:DEBUG:certbot.ocsp:OCSP certificate status for /etc/letsencrypt/archive/ecoautotest.setecem.com/cert5.pem is: OCSPCertStatus.GOOD
+2022-04-20 16:53:28,017:DEBUG:certbot._internal.display.obj:Notifying user: Certificate not yet due for renewal
+2022-04-20 16:53:28,018:DEBUG:certbot._internal.plugins.selection:Requested authenticator webroot and installer None
+2022-04-20 16:53:28,018:DEBUG:certbot._internal.display.obj:Notifying user: Processing /etc/letsencrypt/renewal/slotseyes.com.conf
+2022-04-20 16:53:28,038:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): r3.o.lencr.org:80
+2022-04-20 16:53:28,208:DEBUG:urllib3.connectionpool:http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2022-04-20 16:53:28,209:DEBUG:certbot.ocsp:OCSP response for certificate /etc/letsencrypt/archive/slotseyes.com/cert4.pem is signed by the certificate's issuer.
+2022-04-20 16:53:28,209:DEBUG:certbot.ocsp:OCSP certificate status for /etc/letsencrypt/archive/slotseyes.com/cert4.pem is: OCSPCertStatus.GOOD
+2022-04-20 16:53:28,210:DEBUG:certbot._internal.display.obj:Notifying user: Certificate not yet due for renewal
+2022-04-20 16:53:28,211:DEBUG:certbot._internal.plugins.selection:Requested authenticator webroot and installer None
+2022-04-20 16:53:28,211:DEBUG:certbot._internal.display.obj:Notifying user: Processing /etc/letsencrypt/renewal/sv3.setecem.com.conf
+2022-04-20 16:53:28,231:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): r3.o.lencr.org:80
+2022-04-20 16:53:28,397:DEBUG:urllib3.connectionpool:http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2022-04-20 16:53:28,398:DEBUG:certbot.ocsp:OCSP response for certificate /etc/letsencrypt/archive/sv3.setecem.com/cert6.pem is signed by the certificate's issuer.
+2022-04-20 16:53:28,399:DEBUG:certbot.ocsp:OCSP certificate status for /etc/letsencrypt/archive/sv3.setecem.com/cert6.pem is: OCSPCertStatus.GOOD
+2022-04-20 16:53:28,400:DEBUG:certbot._internal.display.obj:Notifying user: Certificate not yet due for renewal
+2022-04-20 16:53:28,400:DEBUG:certbot._internal.plugins.selection:Requested authenticator webroot and installer None
+2022-04-20 16:53:28,400:DEBUG:certbot._internal.display.obj:Notifying user: Processing /etc/letsencrypt/renewal/tfw.setecem.com.conf
+2022-04-20 16:53:28,422:DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): r3.o.lencr.org:80
+2022-04-20 16:53:28,591:DEBUG:urllib3.connectionpool:http://r3.o.lencr.org:80 "POST / HTTP/1.1" 200 503
+2022-04-20 16:53:28,592:DEBUG:certbot.ocsp:OCSP response for certificate /etc/letsencrypt/archive/tfw.setecem.com/cert1.pem is signed by the certificate's issuer.
+2022-04-20 16:53:28,593:DEBUG:certbot.ocsp:OCSP certificate status for /etc/letsencrypt/archive/tfw.setecem.com/cert1.pem is: OCSPCertStatus.GOOD
+2022-04-20 16:53:28,594:DEBUG:certbot._internal.display.obj:Notifying user: Certificate not yet due for renewal
+2022-04-20 16:53:28,594:DEBUG:certbot._internal.plugins.selection:Requested authenticator webroot and installer None
+2022-04-20 16:53:28,594:DEBUG:certbot._internal.display.obj:Notifying user: 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+2022-04-20 16:53:28,594:DEBUG:certbot._internal.display.obj:Notifying user: The following certificates are not due for renewal yet:
+2022-04-20 16:53:28,594:DEBUG:certbot._internal.display.obj:Notifying user:   /etc/letsencrypt/live/aldeesinfantils.org/fullchain.pem expires on 2022-06-26 (skipped)
+  /etc/letsencrypt/live/campus.festefort.cat/fullchain.pem expires on 2022-07-10 (skipped)
+  /etc/letsencrypt/live/casual-escorts.com/fullchain.pem expires on 2022-06-26 (skipped)
+  /etc/letsencrypt/live/desguacesecoauto.com/fullchain.pem expires on 2022-06-26 (skipped)
+  /etc/letsencrypt/live/ecoautotest.setecem.com/fullchain.pem expires on 2022-06-26 (skipped)
+  /etc/letsencrypt/live/slotseyes.com/fullchain.pem expires on 2022-06-26 (skipped)
+  /etc/letsencrypt/live/sv3.setecem.com/fullchain.pem expires on 2022-06-26 (skipped)
+  /etc/letsencrypt/live/tfw.setecem.com/fullchain.pem expires on 2022-06-27 (skipped)
+2022-04-20 16:53:28,594:DEBUG:certbot._internal.display.obj:Notifying user: No renewals were attempted.
+2022-04-20 16:53:28,595:DEBUG:certbot._internal.display.obj:Notifying user: - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+2022-04-20 16:53:28,595:DEBUG:certbot._internal.renewal:no renewal failures

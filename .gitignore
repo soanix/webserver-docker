@@ -1,8 +1,8 @@
-data/*
+/data
 *.log
-logs/*
-web/*
-!web/index.php
-etc/apache/sites-enabled/*.conf
-!etc/apache/sites-enabled/apache-config.conf
-etc/nginx/conf.d/sites-enabled/*
+/logs
+/web
+/etc/apache/sites-enabled/*.conf
+!/etc/apache/sites-enabled/apache-config.conf
+/etc/nginx/conf.d/sites-enabled/*
+/var

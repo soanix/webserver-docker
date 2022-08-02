@@ -1,0 +1,6 @@
+## LEER ANTES!!!!!
+
+Hay que cambiar la contraseña tanto en webserver/etc/postfix/sasl_passw como en el main.cf
+
+# CUANDO SE CAMBIA LA CONTRASEÑA DEL POSFIX GENERAL
+docker exec -it postfix postmap /etc/postfix/sasl_passwd

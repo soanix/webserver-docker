@@ -1,8 +1,14 @@
 version: "3"
 
-# MariaDB:  8988 
+# MariaDB:  8988
 # MySQL:    8989
 services:
+    certbot:
+        image: certbot/certbot
+        container_name: certbot-docker
+        volumes:
+            - "./etc/letsencrypt:/etc/letsencrypt"
+            - "./etc/letsencrypt-lib/:/var/lib/letsencrypt"
     reverseproxy:
         image: nginx
         container_name: nginx
@@ -13,14 +19,11 @@ services:
             - "./web:/var/www/html"
             - "./etc/nginx/conf.d/default.template:/etc/nginx/conf.d/default.template"
             - "./etc/nginx/nginx.conf:/etc/nginx/nginx.conf"
+            - "./etc/nginx/fastcgi.conf:/etc/nginx/fastcgi.conf"
             - "./etc/nginx/log/error.log:/var/log/nginx/error.log"
         ports:
             - "80:80"
             - "443:443"
-            - "3389:3389"
-            - "9595:9595"
-#            - "8000:8000"
-#            - "9000:9000"
         environment:
             - NGINX_HOST=${NGINX_HOST}
         command: /bin/bash -c "envsubst '$$NGINX_HOST' < /etc/nginx/conf.d/default.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"
@@ -28,16 +31,16 @@ services:
     portainer:
         image: portainer/portainer-ce
         container_name: portainer
-        expose:
-          - 9000
         ports:
-          - 9000:9000
+            - "9000"
         volumes:
-          - "/var/run/docker.sock:/var/run/docker.sock"
-    web:
-        image: web
-        build: .
-        container_name: apache
+            - "/var/run/docker.sock:/var/run/docker.sock"
+    web71:
+        image: apache71
+        container_name: apache71
+        build:
+            context: .
+            dockerfile: ./Dockerfile71
         volumes:
             - "./web:/var/www/site"
             - "./etc/apache/httpd.conf:/usr/local/apache2/conf/httpd.conf"
@@ -45,39 +48,78 @@ services:
             - "./etc/apache/sites-enabled:/etc/apache2/sites-enabled"
             - "./etc/php:/etc/php"
             - "./log/apache2:/var/log/apache2"
+            - "/etc/localtime:/etc/localtime:ro"
         ports:
-            - "8099:80"
+            - "80"
         restart: always
-    myadmin:
-        image: phpmyadmin/phpmyadmin
-        container_name: phpmyadmin
-        ports:
-            - "8080:80"
-        environment:
-            - PMA_ARBITRARY=1
-            - PMA_HOST=mysql
-        restart: always
-    mysqldb:
-        image: mysql
-        container_name: mysql
-        restart: always
-        env_file:
-            - ".env"
-        environment:
-            - MYSQL_DATABASE=${MYSQL_DATABASE}
-            - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
-            - MYSQL_USER=${MYSQL_USER}
-            - MYSQL_PASSWORD=${MYSQL_PASSWORD}
-        ports:
-            - "8989:3306"
+    web72:
+        image: apache72
+        container_name: apache72
+        build:
+            context: .
+            dockerfile: ./Dockerfile72
         volumes:
-            - "./data/db/mysql:/var/lib/mysql"
-            - "./etc/mysql:/etc/mysql"
-    memcached:
-        container_name: memcached
-        image: 'bitnami/memcached:latest'
+            - "./web:/var/www/site"
+            - "./etc/apache/httpd.conf:/usr/local/apache2/conf/httpd.conf"
+            - "./etc/apache/sites-available:/etc/apache2/sites-available"
+            - "./etc/apache/sites-enabled:/etc/apache2/sites-enabled"
+            - "./etc/php:/etc/php"
+            - "./log/apache2:/var/log/apache2"
+            - "/etc/localtime:/etc/localtime:ro"
         ports:
-            - "11211:11211"
+            - "80"
+        restart: always
+    web73:
+        image: apache73
+        container_name: apache73
+        build:
+            context: .
+            dockerfile: ./Dockerfile73
+        volumes:
+            - "./web:/var/www/site"
+            - "./etc/apache/httpd.conf:/usr/local/apache2/conf/httpd.conf"
+            - "./etc/apache/sites-available:/etc/apache2/sites-available"
+            - "./etc/apache/sites-enabled:/etc/apache2/sites-enabled"
+            - "./etc/php:/etc/php"
+            - "./log/apache2:/var/log/apache2"
+            - "/etc/localtime:/etc/localtime:ro"
+        ports:
+            - "80"
+        restart: always
+    web74:
+        image: apache74
+        container_name: apache74
+        build:
+            context: .
+            dockerfile: ./Dockerfile74
+        volumes:
+            - "./web:/var/www/site"
+            - "./etc/apache/httpd.conf:/usr/local/apache2/conf/httpd.conf"
+            - "./etc/apache/sites-available:/etc/apache2/sites-available"
+            - "./etc/apache/sites-enabled:/etc/apache2/sites-enabled"
+            - "./etc/php:/etc/php"
+            - "./log/apache2:/var/log/apache2"
+            - "/etc/localtime:/etc/localtime:ro"
+        ports:
+            - "80"
+        restart: always
+    web80:
+        image: apache80
+        container_name: apache80
+        build:
+            context: .
+            dockerfile: ./Dockerfile80
+        volumes:
+            - "./web:/var/www/site"
+            - "./etc/apache/httpd.conf:/usr/local/apache2/conf/httpd.conf"
+            - "./etc/apache/sites-available:/etc/apache2/sites-available"
+            - "./etc/apache/sites-enabled:/etc/apache2/sites-enabled"
+            - "./etc/php:/etc/php"
+            - "./log/apache2:/var/log/apache2"
+            - "/etc/localtime:/etc/localtime:ro"
+        ports:
+            - "80"
+        restart: always
     pureftpd:
         container_name: ftp
         image: vipconsult/proftpd
@@ -96,30 +138,28 @@ services:
         container_name: mariadb
         restart: always
         ports:
-            - "8988:3306"
+            - "3306"
         env_file:
             - ".env"
         environment:
-          MYSQL_ROOT_PASSWORD: ${MARIADB_PASSWORD}
+            MYSQL_ROOT_PASSWORD: ${MARIADB_PASSWORD}
         volumes:
             - "./data/db/mariadb:/var/lib/mysql"
             - "./etc/mariadb:/etc/mysql"
-    redis:
-        container_name: redis
-        image: 'bitnami/redis:latest'
-        environment:
-          - REDIS_PASSWORD=_Q9PbHvHLfVMfHXuPpmPhwmOTIaMLiUKchq4aVmpg_
-        ports:
-          - '6379:6379'
-        volumes:
-          - "./data/redis:/bitnami/redis/data"
-          - "./etc/redis:/etc/redis"
+            - "./log/mariadb:/var/log/mysql"
     postfix:
         image: tecnativa/postfix-relay:latest
         container_name: postfix
+        env_file:
+            - ".env"
+        environment:
+            - MAIL_RELAY_HOST=${MAIL_RELAY_HOST}
+            - MAIL_RELAY_PORT=${MAIL_RELAY_PORT}
+            - MAIL_RELAY_USER=${MAIL_RELAY_USER}
+            - MAIL_RELAY_PASS=${MAIL_RELAY_PASS}
         ports:
-          - '18171:25'
+            - '25'
         restart: always
         volumes:
-         - "/etc/localtime:/etc/localtime:ro"
-         - "./etc/postfix:/etc/postfix"
+            - "/etc/localtime:/etc/localtime:ro"
+            - "./etc/postfix:/etc/postfix"

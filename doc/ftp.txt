@@ -3,7 +3,7 @@
 OJO: Sustituir {NOMBRE_DE_USUARIO} y {DIRETORIO} por los datos reales teniendo en
 cuenta que el directorio /home/ftpuser/web/ del container de docker equivale a /root/workspace/web (Ejemplo en la parte de abajo)
 
-docker exec -it ftp-docker ftpasswd --file=/etc/proftpd/ftpd.passwd --passwd --shell=/bin/false --name={NOMBRE_DE_USUARIO} --uid=1001 --home=/home/ftpuser/web/{DIRECTORIOWEB}
+docker exec -it ftp ftpasswd --file=/etc/proftpd/ftpd.passwd --passwd --shell=/bin/false --name={NOMBRE_DE_USUARIO} --uid=33 --home=/home/ftpuser/web/{DIRECTORIOWEB}
 
 - Te pedirá que escribas la contraseña 2 veces.
 

@@ -1,9 +1,9 @@
 #!/bin/bash
 docker run -it --rm \
--v /root/workspace/etc/letsencrypt:/etc/letsencrypt \
--v /root/workspace/var/lib/letsencrypt:/var/lib/letsencrypt \
--v /root/workspace/web:/data/letsencrypt \
--v /root/workspace/log/letsencrypt:/var/log/letsencrypt \
+-v /root/webserver/etc/letsencrypt:/etc/letsencrypt \
+-v /root/webserver/var/lib/letsencrypt:/var/lib/letsencrypt \
+-v /root/webserver/web:/data/letsencrypt \
+-v /root/webserver/log/letsencrypt:/var/log/letsencrypt \
 certbot/certbot \
 renew
-docker restart nginx-docker
+docker restart nginx
