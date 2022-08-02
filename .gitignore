@@ -6,3 +6,7 @@
 !/etc/apache/sites-enabled/apache-config.conf
 /etc/nginx/conf.d/sites-enabled/*
 /var
+/etc/proftpd/ftpd.passwd
+/etc/postfix/sasl_passwd
+/etc/postfix/sasl_passwd.db
+/.env
