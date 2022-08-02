@@ -1,6 +1,6 @@
 /data
 *.log
-/logs
+/log
 /web
 /etc/apache/sites-enabled/*.conf
 !/etc/apache/sites-enabled/apache-config.conf
